@@ -8,6 +8,9 @@ body {
              color: #FFFFFF;
              background-color: #CCCCCC;
              font-size: 24px;
+             display: flex;
+             align-items: flex-end;
+             justify-content: flex-end;
            }
 
 table {
@@ -16,6 +19,7 @@ table {
         color: #FFFFFF;
         background-color:#363636;
         font-size: 16px;
+        text-align: center;
      }
         
 
