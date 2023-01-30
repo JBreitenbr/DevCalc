@@ -1,18 +1,18 @@
 body {
-       background-color: #8B8000;
+       background-color: #FFFF00;
      }
 
 #display { 
-             width: 85%;
-             height: 30%;
+             width: 100%;
+             height: 100px;
              color: #FFFFFF;
              background-color: #CCCCCC;
              font-size: 24px;
            }
 
 table {
-        width: 85%;
-        height: 65%;
+        width: 100%;
+        height: 350px;
         color: #FFFFFF;
         background-color:#363636;
         font-size: 16px;
