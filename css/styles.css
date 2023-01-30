@@ -1,3 +1,21 @@
 body {
-       height: 70vh;
+       background-color: #8B8000;
      }
+
+#calc-area { 
+             width: 85%;
+             height: 30%;
+             color: #FFFFFF;
+             background-color: #CCCCCC;
+             font-size: 24px;
+           }
+
+table {
+        width: 85%;
+        height: 65%;
+        color: #FFFFFF;
+        background-color:#363636;
+        font-size: 16px;
+     }
+        
+
