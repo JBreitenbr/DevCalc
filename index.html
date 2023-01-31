@@ -39,6 +39,15 @@ function op(val) {
   cl2();}
   disp.innerText+=val;
 }
+
+
+function res() {
+   let ent=document.getElementById("display");
+   let v=ent.innerText;
+   let res=eval(v);
+   ent.innerText=res;
+} 
+
 /*
 function oq(sig) {   
   let disp=document.getElementById("display");
