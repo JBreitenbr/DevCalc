@@ -57,5 +57,10 @@ function decOp() {
    }
  }
 
-
+function res() {
+   let ent=document.getElementById("display");
+   let v=ent.innerText;
+   let res=eval(v);
+   ent.innerText=res;
+}
 
