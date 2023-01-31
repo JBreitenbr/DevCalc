@@ -7,9 +7,26 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<script src="calc.js"></script>
+<!-- <script src="calc.js"></script> -->
+<script>
+let disp=document.getElementById("display");
+
+function cl1() {
+ disp.innerText=0;
+}
+
+function cl2() {
+ disp.innerText="";
+}
+
+function op(val) {
+  if(disp.innerText=="0"){
+  cl2();}
+  disp.innerText+=val;
+}
+</script>
 <h1>A Simple Calculator</h1>
-<div id="display">
+<div id="display">0
 </div>
 
 <table>
