@@ -20,7 +20,7 @@ function oq(sig) {
   let L=stri.length-1;
   let s1=stri[L];
   let s2=stri.slice(L-1);
-  let ops1 = (s1=="+") || (s1=="-") || (s1=="*") || (s1=="/"));
+  let ops1 = (s1=="+") || (s1=="-") || (s1=="*") || (s1=="/");
   let ops2 = (s2=="+-") || (s2=="--") || (s2=="*-") || (s2=="/-");
   if(ops2) {
     disp.innerText=stri.slice(0,L-1)+sig;
