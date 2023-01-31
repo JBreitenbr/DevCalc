@@ -82,7 +82,12 @@ function decOp() {
     disp.innerText+=".";
    }
  }
-
+function res() {
+   let ent=document.getElementById("display");
+   let v=ent.innerText;
+   let res=eval(v);
+   ent.innerText=res;
+}
 </script>
 <!--
 function op(val) {
