@@ -2,6 +2,10 @@
        background-color: #FFFF00;
      }
 
+h2 {
+     font-family: Trirong, serif;
+   }
+
 #display { 
              width: 100%;
              height: 100px;
