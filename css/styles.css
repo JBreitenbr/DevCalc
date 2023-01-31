@@ -8,7 +8,7 @@ h1,h2 { text-align: center;
 font-family: Montserrat;}
 #display { 
              width: 100%;
-             height: 14vh;
+             height: 12vh;
              color: #FFFFFF;
              background-color: #AAAAAA;
              font-size: 32px;
@@ -19,7 +19,7 @@ font-family: Montserrat;}
 
 table {
         width: 100%;
-        height: 75vh;
+        height: 60vh;
         color: #FFFFFF;
         background-color: #565656;
         font-size: 24px;
