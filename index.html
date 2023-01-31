@@ -72,13 +72,13 @@ function oq(sig) {
        disp.innerText+=sig;
    }
 }
-/*
+
 function decL(expr) {
     let spl=expr.split(/[-*\/+]/);
     let lst=spl[spl.length-1];
     let pt=/[\.]/;
     if(lst==""){return false;}
-    else return {!(pt.test(lst));}
+    else {return !(pt.test(lst));}
 }
    
 function decOp() {
@@ -91,7 +91,7 @@ function decOp() {
     disp.innerText+=".";
    }
  }
-
+/*
 function res() {
    let ent=document.getElementById("display");
    let v=ent.innerText;
