@@ -10,7 +10,8 @@ font-family: Montserrat, sans-serif;
 #display { 
              width: 100%;
              height: 12vh;
-             /*padding: 10%;*/
+             padding: 5%;
+             box-sizing: border-box;
              color: #FFFFFF;
              background-color: #AAAAAA;
              font-size: 32px;
