@@ -14,20 +14,20 @@
 
 </head>
 <body>
-
+<div id="wrapper">
 <h2 id="t1">A Simple Calculator:</h2>
 <h2 id="t2">Math can be fun <i class="fa fa-smile-o" aria-hidden="true"></i></h2>
-<div class="container-fluid">
-<div id="display">0
+
+<div id="display" class="box"><span class="dist">0</span>
 </div>
 
-<table>
-<tr><td></td><td></td><td></td><td id="clear" onclick="cl1()">C</td></tr>
-<tr><td id="seven" onclick="op(7)">7</td><td id="eight" onclick="op(8)">8</td><td id="nine" onclick="op(9)">9</td><td id="divide" onclick="oq('/')">/</td></tr>
-<tr><td id="four" onclick="op(4)">4</td><td id="five" onclick="op(5)">5</td><td id="six" onclick="op(6)">6</td><td id="multiply" onclick="oq('*')">*</td></tr>
-<tr><td id="one" onclick="op(1)">1</td><td id="two" onclick="op(2)">2</td><td id="three" onclick="op(3)">3</td><td id="add" onclick="oq('+')">+</td></tr>
-<tr><td id="zero" onclick="op(0)">0</td><td id="decimal" onclick="decOp()">.</td><td id="equals" onclick="res()">=</td><td id="subtract" onclick="oq('-')">-</td></tr>
-</table>
+<div id="calc">
+<div class="square black-border"></div><div class="square black-border"></div><div class="square black-border"></div><div class="square black-border" id="clear" onclick="cl1()">C</div>
+<div id="seven" onclick="op(7)" class="square">7</div><div id="eight" onclick="op(8)" class="square">8</div><div id="nine" onclick="op(9)" class="square">9</div><div id="divide" onclick="oq('/')" class="square">/</div>
+<div id="four" onclick="op(4)" class="square">4</div><div id="five" onclick="op(5)" class="square">5</div><div id="six" onclick="op(6)" class="square">6</div><div id="multiply" onclick="oq('*')" class="square">*</div>
+<div id="one" onclick="op(1)" class="square">1</div><div id="two" onclick="op(2)" class="square">2</div><div id="three" onclick="op(3)" class="square">3</div><div id="add" onclick="oq('+')" class="square">+</div>
+<div id="zero" onclick="op(0)" class="square">0</div><div id="decimal" onclick="decOp()" class="square">.</div><div id="equals" onclick="res()" class="square">=</div><div id="subtract" onclick="oq('-')" class="square">-</div>
+</div>
 </div>
 <script>
 let disp=document.getElementById("display");
