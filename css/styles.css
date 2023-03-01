@@ -9,7 +9,7 @@ font-family: Montserrat, sans-serif;
 }
 #display { 
              width: 100%;
-             height: min(12vh,120px);
+             height: min(15vh,120px);
              padding: 5%;
              box-sizing: border-box;
              color: #FFFFFF;
