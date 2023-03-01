@@ -65,7 +65,7 @@ background-color: #ccc;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .black-border {
@@ -82,7 +82,7 @@ background-color: #ccc;
   .square {
     width: 60px;
     height: 60px;
-    font-size: 18px;
+    font-size: 24px;
   }
   .box {
     height: 60px;
