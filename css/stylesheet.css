@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #7cfaf4;
+}
+
+h2 {
+  font-family: Montserrat;
+  text-align:center;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 80px auto;
+  margin-top: 40px;
+  /*gap: 12px;*/
+  padding: 5%;
+}
+
+.box {
+  width: 322px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid white;
+  /* border-radius: 5px;*/
+  height: 80px;
+  font-size: 32px;
+}
+
+#display {
+  background-color: #cccccc;
+}
+
+#clear {
+  font-size: 32px;
+}
+
+#calc {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+/* border: 2px solid darkblue;*/
+background-color: #ccc;
+}
+
+.square {
+  height: 80px;
+  width: 80px;
+  background-color:#242424;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.black-border {
+  border: 1px solid #242424;
+  border-radius: 0px;
+}
+.dist {
+  padding: 28px;
+}
+
+
+@media screen and (max-width: 550px){
+  .square {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+  .box {
+    height: 60px;
+    width: 242px;
+    font-size: 24px;
+  }
+   .dist {
+    padding: 21px;
+   }
+
+   #wrapper {
+     margin: 60px auto;
+     margin-top: 30px;
+   }
+
+   #clear {
+     font-size: 24px;
+   }
+}
+
