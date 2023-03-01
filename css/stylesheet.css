@@ -38,7 +38,7 @@ h2 {
   font-size: 32px;
 }
 
-#display {
+#dist {
   background-color: #ccc;
   height: 120px;
   color: #242424;
@@ -73,7 +73,7 @@ background-color: #ccc;
   border-radius: 0px;
 }
 
-#dist {
+#display {
   padding: 28px;
 }
 
@@ -90,7 +90,7 @@ background-color: #ccc;
     font-size: 24px;
   }
 
-   #dist {
+   #display {
     padding: 21px;
    }
 
@@ -99,7 +99,7 @@ background-color: #ccc;
      margin-top: 30px;
    }
 
-   #display {
+   #dist {
      height: 90px;
    }
 
