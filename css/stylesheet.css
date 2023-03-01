@@ -71,7 +71,8 @@ background-color: #ccc;
   border: 1px solid #242424;
   border-radius: 0px;
 }
-.dist {
+
+#dist {
   padding: 28px;
 }
 
@@ -87,7 +88,8 @@ background-color: #ccc;
     width: 242px;
     font-size: 24px;
   }
-   .dist {
+
+   #dist {
     padding: 21px;
    }
 
