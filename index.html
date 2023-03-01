@@ -18,7 +18,7 @@
 <h2>A Simple Calculator:</h2>
 <h2 id="fun">Math can be fun <i class="fa fa-smile-o" aria-hidden="true"></i></h2>
 
-<div id="display" class="box"><span id="dist">0</span>
+<div id="dist" class="box"><span id="display">0</span>
 </div>
 
 <div id="calc">
@@ -30,7 +30,7 @@
 </div>
 </div>
 <script>
-let disp=document.getElementById("dist"); 
+let disp=document.getElementById("display"); 
 
 function cl1() {
  disp.innerText=0;
@@ -48,7 +48,7 @@ function op(val) {
 }
 
 function oq(sig) {   
-  let disp=document.getElementById("dist");
+  let disp=document.getElementById("display");
   let stri=disp.innerText;
   let L=stri.length-1;
   let s1=stri[L];
@@ -80,7 +80,7 @@ function decL(expr) {
 }
    
 function decOp() {
-   let disp=document.getElementById("dist");
+   let disp=document.getElementById("display");
    let val=disp.innerText;
    if(val=="0"){
       cl2();
@@ -91,7 +91,7 @@ function decOp() {
  }
 
 function res() {
-   let ent=document.getElementById("dist");
+   let ent=document.getElementById("display");
    let v=ent.innerText;
    let res=eval(v);
    ent.innerText=res;
