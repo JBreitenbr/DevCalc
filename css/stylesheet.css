@@ -8,6 +8,9 @@ html {
 h2 {
   font-family: Montserrat;
   text-align:center;
+}
+
+#fun {
   margin-bottom: 60px;
 }
 
@@ -97,7 +100,7 @@ background-color: #ccc;
      font-size: 24px;
    }
  
-   h2 {
+   #fun {
      margin-bottom: 40px;
    }
 }
