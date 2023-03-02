@@ -76,8 +76,39 @@ background-color: #ccc;
 #dist {
   padding: 28px;
 }
+@media screen and (max-width: 550px){
+  .square {
+    width: 70px;
+    height: 70px;
+    font-size: 21px;
+  }
+  .box {
+    height: 70px;
+    width: 282px;
+    font-size: 28px;
+  }
+   # dist {
+    padding: 25px;
+   }
 
+   #wrapper {
+     margin: 70px auto;
+     margin-top: 36px;
+   }
 
+   #clear {
+     font-size: 28px;
+   }
+
+   #display {
+      height: 105px;
+   }
+   
+   #fun {
+      margin-bottom: 46px;
+   }
+}
+/*
 @media screen and (max-width: 550px){
   .square {
     width: 60px;
@@ -108,7 +139,8 @@ background-color: #ccc;
    }
  
    #fun {
-     margin-bottom: 40px;
+     margin-bottom: 46px;
    }
 }
 
+*/
