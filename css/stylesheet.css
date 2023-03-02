@@ -75,6 +75,7 @@ background-color: #ccc;
 
 #display {
   padding: 30px;
+  font-size: 35px;
 }
 @media screen and (max-width: 550px){
   .square {
@@ -89,6 +90,7 @@ background-color: #ccc;
   }
    #display {
     padding: 20px;
+    font-size: 24px;
    }
 
    #wrapper {
