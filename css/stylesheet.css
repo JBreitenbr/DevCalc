@@ -11,7 +11,7 @@ h2 {
 }
 
 #fun {
-  margin-bottom: 60px;
+  margin-bottom: 75px;
 }
 
 #wrapper {
@@ -20,32 +20,32 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 80px auto;
-  margin-top: 40px;
+  margin: 100px auto;
+  margin-top: 50px;
   background-color: #7cfaf4;
   padding: 5%;
 }
 
 .box {
-  width: 322px;
+  width: 404px;
   color: white;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   border: 1px solid white;
   /* border-radius: 5px;*/
-  height: 80px;
-  font-size: 32px;
+  height: 100px;
+  font-size: 40px;
 }
 
-#display {
+#dist {
   background-color: #ccc;
-  height: 120px;
+  height: 150px;
   color: #242424;
 }
 
 #clear {
-  font-size: 32px;
+  font-size: 40px;
 }
 
 #calc {
@@ -55,8 +55,8 @@ background-color: #ccc;
 }
 
 .square {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   background-color:#242424;
   color: #fff;
   border: 1px solid #ccc;
@@ -65,7 +65,7 @@ background-color: #ccc;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .black-border {
@@ -73,8 +73,8 @@ background-color: #ccc;
   border-radius: 0px;
 }
 
-#dist {
-  padding: 28px;
+#display {
+  padding: 35px;
 }
 @media screen and (max-width: 550px){
   .square {
@@ -87,7 +87,7 @@ background-color: #ccc;
     width: 282px;
     font-size: 28px;
   }
-   # dist {
+   #display {
     padding: 25px;
    }
 
@@ -100,7 +100,7 @@ background-color: #ccc;
      font-size: 28px;
    }
 
-   #display {
+   #dist {
       height: 105px;
    }
    
@@ -108,39 +108,4 @@ background-color: #ccc;
       margin-bottom: 46px;
    }
 }
-/*
-@media screen and (max-width: 550px){
-  .square {
-    width: 60px;
-    height: 60px;
-    font-size: 24px;
-  }
-  .box {
-    height: 60px;
-    width: 242px;
-    font-size: 24px;
-  }
 
-   #dist {
-    padding: 21px;
-   }
-
-   #wrapper {
-     margin: 60px auto;
-     margin-top: 30px;
-   }
-
-   #display {
-     height: 90px;
-   }
-
-   #clear {
-     font-size: 24px;
-   }
- 
-   #fun {
-     margin-bottom: 46px;
-   }
-}
-
-*/
