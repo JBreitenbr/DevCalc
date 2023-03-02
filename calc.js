@@ -9,8 +9,8 @@ function cl2() {
 }
 
 function op(val) {
-  if(disp.innerText=="0"){
-  cl2();}
+  if(disp.innerText=="0")
+    cl2();
   disp.innerText+=val;
 }
 
